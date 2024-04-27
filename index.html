@@ -1,36 +1,81 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Título de tu página</title>
-    <!-- Enlaces a archivos CSS, fuentes, etc. -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Título de tu página</title>
+  <!-- Enlaces a archivos CSS, fuentes, etc. -->
 </head>
 
 <script src="https://cdn.tailwindcss.com"></script>
-<body>
-   
-  <div class="grid grid-cols-2">
-    <!-- First column -->
-    <div class="bg-[#eef2fb] p-10">
-      <img src="./assets/img/speech-bubble.png" class="absolute" alt="Speach image" class="mb-5">
-      <h2>Column 1</h2>
-      <p>Content for column 1</p>
-    </div>
-    <!-- Second column -->
-    <div class="bg-[#eef2fb] p-10">
-      <h2>Column 2</h2>
-      <p>Content for column 2</p>
-    </div>
-  </div>
-</main>
-    
-    
-    <footer>
-        <!-- Pie de página -->
-        <p>Derechos de autor © 2024 - TuNombre</p>
-    </footer>
 
-    <!-- Scripts de JavaScript, si es necesario -->
+<body>
+
+  <section>
+    <img src="./assets/img/back.png" alt="">
+  </section>
+
+
+  <section class="grid grid-cols-1 md:grid-cols-2 pt-40">
+    <div class="justify-self-center">
+      <img src="./assets/img/section.png" alt="" class="h-[40vh] md:h-[60vh]">
+    </div>
+    <div class="justify-self-center">
+      <img src="./assets/img/section 2.png" alt="" class="h-[40vh] md:h-[60vh]">
+    </div>
+  </section>
+
+  <section class="bg-[#eef2fb] mx-12 md:mx-40 rounded mt-10">
+    <div class="flex flex-col md:flex-row items-center">
+      <img src="./assets/img/team.png" alt="Team Image" class="w-40 h-40 md:w-60 md:h-60">
+      <div class="text-center md:text-left md:ml-20 flex-grow mx-10 md:mx-0">
+        <h2 class="text-xl md:text-4xl font-bold text-blue-900 mb-4">Team Growth and Exciting Opportunities</h2>
+        <p class="text-lg md:text-xl">Our team has grown, bringing in diverse talents and </p>
+        <p class="text-lg md:text-xl pb-10 md:pb-0">expertise to drive our expansion and innovation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-[#eef2fb] mx-12 md:mx-40 rounded mt-10">
+    <div class="flex flex-col md:flex-row items-center">
+      <div class="text-center md:text-left md:ml-20 flex-grow mx-10 md:mx-0">
+        <h2 class="text-xl md:text-4xl font-bold text-blue-900 mb-4 pt-10 md:pt-0">DNERO ARK is here now</h2>
+        <p class="text-lg md:text-xl">Stay tuned for the latest release of DNERO ARK to the public. It is</p>
+        <p class="text-lg md:text-xl">our Augmented Reality experience for virtual gifts and rewards.</p>
+        <p class="text-lg md:text-xl mt-10 font-bold">Launching on April 30th</p>
+      </div>
+      <img src="./assets/img/pin.png" alt="Pin Image" class="h-40 md:h-60 pr-10 my-10">
+    </div>
+  </section>
+
+  <section class="grid grid-cols-1 md:grid-cols-2 mt-10">
+    <div class="justify-self-center">
+      <img src="./assets/img/section 4.png" alt="" class="h-[44vh] md:h-[60vh]">
+    </div>
+    <div class="justify-self-center">
+      <img src="./assets/img/section 3.png" alt="" class="h-[44vh] md:h-[60vh]">
+    </div>
+  </section>
+
+  <section class="mx-16 md:mx-48 mt-10 text-xl md:text-4xl">
+    We are immensely proud of the progress we've achieved, and we extend our heartfelt gratitude for your unwavering
+    support as investors in DNERO. Your trust and confidence in our vision propel us forward, and we remain steadfast in
+    our commitment to delivering value and excellence in all our endeavors.
+    <br>
+    <div class="mt-10">
+      Thank you for being an integral part of this incredible journey with us.
+    </div>
+    <div class="mt-10 font-bold">
+      DNERO Team
+    </div>
+  </section>
+
+  <footer class="mt-20 md:mt-40">
+    <img src="./assets/img/footer.png" alt="" class="hidden md:block">
+    <img src="./assets/img/footer 2.png" alt="" class="block md:hidden">
+  </footer>
+
 </body>
+
 </html>
